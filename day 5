@@ -1,0 +1,14 @@
+//simlpe usage of Split,Join,filter,map,forEach,trim
+
+const checkWord = "Hello this is udeesha rukshan and hello";
+
+let splitWord = checkWord.split(" ");
+console.log(splitWord);
+
+const value = splitWord.filter(word=>{
+return word.toLowerCase()!=="hello"}
+)
+
+const pharagraph=value.join(" ")
+
+console.log(pharagraph)
