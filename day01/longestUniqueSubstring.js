@@ -1,5 +1,5 @@
 const longestUniqueSubstring=(text)=>{
-let characters=new Set();
+const characters=new Set();
 let max=0;
 
 for(let i=0;i<text.length;i++){
