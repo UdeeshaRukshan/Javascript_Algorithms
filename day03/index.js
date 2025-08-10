@@ -1,7 +1,7 @@
 function result(str) {
     let count = 0;
     const vowels = "aeiouAEIOU";
-    for (let char of str) {
+    for (const char of str) {
       if (vowels.includes(char)) {
         count++;
       }
