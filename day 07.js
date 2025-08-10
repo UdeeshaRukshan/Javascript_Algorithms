@@ -1,0 +1,17 @@
+function twoSumAllPairs(nums, target) {
+    const lookup = new Map();
+    const results = [];
+    for (let i = 0; i < nums.length; i++) {
+        const complement = target - nums[i];
+        if (lookup.has(complement)) {
+            results.push([lookup.get(complement), i]);
+        }
+
+        lookup.set(nums[i], i);
+    }
+    return results;
+}
+
+const nums = [2, 7, 11, 15, 5, 4];
+const target = 9;
+const value=twoSumAllPairs(nums, target);
