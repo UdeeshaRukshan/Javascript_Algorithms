@@ -3,7 +3,7 @@ const isPalindrome = (paragraph) => {
     
     // Step 1: Clean the text (remove spaces, commas, and convert to lowercase)
     for (let i = 0; i < paragraph.length; i++) {
-        let char = paragraph[i].toLowerCase();
+        const char = paragraph[i].toLowerCase();
         if ((char >= 'a' && char <= 'z') || (char >= '0' && char <= '9')) {
             cleanedText += char;
         }
