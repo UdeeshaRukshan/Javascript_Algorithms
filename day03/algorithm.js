@@ -19,6 +19,6 @@ function letsSolveThis(nums, k) {
 }
 
 // Example usage:
-let nums = [1, 3, -1, -3, 5, 3, 6, 7];
-let k = 3;
+const nums = [1, 3, -1, -3, 5, 3, 6, 7];
+const k = 3;
 console.log(letsSolveThis(nums, k)); // Output: [3, 3, 5, 5, 6, 7]
